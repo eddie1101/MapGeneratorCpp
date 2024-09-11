@@ -2,6 +2,8 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 
+#include "Array2D.hpp"
+
 using namespace sf;
 
 int main() {

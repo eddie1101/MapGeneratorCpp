@@ -5,8 +5,7 @@ project(MapGenerator)
 file(MAKE_DIRECTORY build)
 
 add_executable(map_generator src/main.cpp)
-set_target_properties(map_generator
-    PROPERTIES
+set_target_properties(map_generator PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY build
 )
 
